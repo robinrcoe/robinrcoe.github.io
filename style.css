@@ -1,0 +1,90 @@
+html {
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+nav > ul > li {
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #a0c4e5;
+}
+
+.professionclass {
+  margin-left: 270px;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #a9fdf9;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #faf9a7;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+#section2 {
+  margin-top: 20px;
+}
+
+#section3 > img {
+  margin-top: 20px;
+  font-size: 40px !important;
+}
+
+.skills__img {
+  width: 70px;
+  height: 70px;
+}
+
+.skills_section {
+  display: flex;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #000000;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #3291bd;
+}
